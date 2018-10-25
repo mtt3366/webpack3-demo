@@ -67,17 +67,27 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var sum = __webpack_require__(1)
-console.log(sum(1, 2))
+"use strict";
+
+
+var sum = __webpack_require__(1);
+
+console.log(sum(1, 2));
+
+var a = 1;
+alert(a);
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
 
 // 这个模块化写法是 node 环境独有的，浏览器原生不支持使用
-module.exports = function(a, b) {
-    return a + b
-}
+module.exports = function (a, b) {
+    return a + b;
+};
 
 /***/ })
 /******/ ]);
