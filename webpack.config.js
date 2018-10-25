@@ -8,13 +8,22 @@ module.exports = {
     },
     module: {
         rules: [{
-            // js 文件才使用 babel
-            test: /\.js$/,
-            // 使用哪个 loader
-            use: 'babel-loader',
-            // 不包括路径
-            exclude: /node_modules/
-        }]
+                // js 文件才使用 babel
+                test: /\.js$/,
+                // 使用哪个 loader
+                use: 'babel-loader',
+                // 不包括路径
+                exclude: /node_modules/
+            },
+            {
+                test: /\.scss$/,
+                use: [
+                    "style-loader", // creates style nodes from JS strings
+                    "css-loader", // translates CSS into CommonJS
+                    "sass-loader" // compiles Sass to CSS, using Node Sass by default
+                ]
+            }
+        ]
     }
 
 }
