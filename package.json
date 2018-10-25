@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/mtt3366/webpack3-demo#readme",
   "devDependencies": {
-    "webpack": "^4.22.0"
+    "webpack": "^3.12.0"
   }
 }
