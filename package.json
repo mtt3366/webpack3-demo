@@ -1,0 +1,22 @@
+{
+  "name": "webpack3-demo",
+  "version": "1.0.0",
+  "description": "将几个互相引用的js文件转化为一个文件\r ## 用 babel-loader 把 ES6 转译为 ES5\r babel-loader的使用\r ## 用 sass-loader 把 SCSS 转译为 CSS\r sass-loader的使用",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtt3366/webpack3-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtt3366/webpack3-demo/issues"
+  },
+  "homepage": "https://github.com/mtt3366/webpack3-demo#readme",
+  "devDependencies": {
+    "webpack": "^4.22.0"
+  }
+}
